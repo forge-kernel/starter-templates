@@ -1,0 +1,10 @@
+{
+  "name": "Blank Starter",
+  "kernel": {
+    "name": "forge-kernel",
+    "version": "latest"
+  },
+  "modules": {
+    "forge-package-manager": "3.3.3"
+  }
+}

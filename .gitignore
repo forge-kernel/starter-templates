@@ -1,0 +1,12 @@
+# Ignore ZIP archives (built versions are tagged/published separately)
+*.zip
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+.idea/
+.vscode/
+*.swp
+*.swo
