@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\Controllers;
 
-use App\Modules\ForgeRouter\Helpers\Redirect;
-use App\Modules\ForgeRouter\Http\Attributes\Middleware;
-use App\Modules\ForgeRouter\Http\Response;
-use App\Modules\ForgeRouter\Attributes\Layout;
-use App\Modules\ForgeRouter\Routing\Route;
-use App\Modules\ForgeRouter\Traits\ResponseHelper;
-use App\Modules\ForgeView\Traits\ViewHelper;
-use App\Modules\ForgeAuth\Contracts\UserContextInterface;
+use Modules\ForgeRouter\Helpers\Redirect;
+use Modules\ForgeRouter\Http\Attributes\Middleware;
+use Modules\ForgeRouter\Http\Response;
+use Modules\ForgeRouter\Attributes\Layout;
+use Modules\ForgeRouter\Routing\Route;
+use Modules\ForgeRouter\Traits\ResponseHelper;
+use Modules\ForgeView\Traits\ViewHelper;
+use Modules\ForgeAuth\Contracts\UserContextInterface;
 use App\Services\AdminUserService;
 use Forge\Core\DI\Attributes\Service;
 use Forge\Core\Helpers\Flash;

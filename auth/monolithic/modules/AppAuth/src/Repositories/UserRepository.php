@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\AppAuth\Repositories;
+namespace Modules\AppAuth\Repositories;
 
-use App\Modules\AppAuth\Models\User;
-use App\Modules\ForgeAuth\Contracts\AuthUserInterface;
-use App\Modules\ForgeAuth\Contracts\UserProviderInterface;
-use App\Modules\ForgeSqlOrm\ORM\Paginator;
-use App\Modules\ForgeSqlOrm\Repositories\RecordRepository;
+use Modules\AppAuth\Models\User;
+use Modules\ForgeAuth\Contracts\AuthUserInterface;
+use Modules\ForgeAuth\Contracts\UserProviderInterface;
+use Modules\ForgeSqlOrm\ORM\Paginator;
+use Modules\ForgeSqlOrm\Repositories\RecordRepository;
 use Forge\Core\DI\Attributes\NoCache;
 
 #[NoCache]

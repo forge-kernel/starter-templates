@@ -1,8 +1,8 @@
 <?php
 
-use App\Modules\ForgeComponents\Definitions\FooterDefinition;
-use App\Modules\ForgeComponents\Definitions\NavbarDefinition;
-use App\Modules\ForgeComponents\Definitions\NavbarLinkDefinition;
+use Modules\ForgeComponents\Definitions\FooterDefinition;
+use Modules\ForgeComponents\Definitions\NavbarDefinition;
+use Modules\ForgeComponents\Definitions\NavbarLinkDefinition;
 
 $currentUser = $data['currentUser'] ?? null;
 

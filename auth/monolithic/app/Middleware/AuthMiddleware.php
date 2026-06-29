@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace App\Middleware;
 
-use App\Modules\ForgeRouter\Helpers\Redirect;
-use App\Modules\ForgeRouter\Http\Middleware;
-use App\Modules\ForgeRouter\Http\Request;
-use App\Modules\ForgeRouter\Http\Response;
-use App\Modules\ForgeRouter\Middleware\Attributes\RegisterMiddleware;
-use App\Modules\ForgeAuth\Contracts\UserContextInterface;
+use Modules\ForgeRouter\Helpers\Redirect;
+use Modules\ForgeRouter\Http\Middleware;
+use Modules\ForgeRouter\Http\Request;
+use Modules\ForgeRouter\Http\Response;
+use Modules\ForgeRouter\Middleware\Attributes\RegisterMiddleware;
+use Modules\ForgeAuth\Contracts\UserContextInterface;
 use Forge\Core\DI\Attributes\Service;
 use Forge\Core\Services\RedirectHandlerService;
 

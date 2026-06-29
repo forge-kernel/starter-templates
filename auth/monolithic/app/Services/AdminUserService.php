@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Services;
 
-use App\Modules\ForgeAuth\Contracts\UserProviderInterface;
+use Modules\ForgeAuth\Contracts\UserProviderInterface;
 use Forge\Core\DI\Attributes\Service;
 
 #[Service]

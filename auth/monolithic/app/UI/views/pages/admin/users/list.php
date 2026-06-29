@@ -4,14 +4,14 @@ $columns = $data['columns'] ?? [];
 $rows = $data['rows'] ?? [];
 $currentUser = $data['currentUser'] ?? null;
 
-use App\Modules\ForgeComponents\Definitions\Admin\BreadcrumbsDefinition;
-use App\Modules\ForgeComponents\Definitions\Admin\BreadcrumbItemDefinition;
-use App\Modules\ForgeComponents\Definitions\Admin\SidebarDefinition;
-use App\Modules\ForgeComponents\Definitions\Admin\NavGroupDefinition;
-use App\Modules\ForgeComponents\Definitions\Admin\NavItemDefinition;
-use App\Modules\ForgeComponents\Definitions\Admin\IconDefinition;
-use App\Modules\ForgeComponents\Definitions\Admin\UserDropdownDefinition;
-use App\Modules\ForgeComponents\Definitions\Admin\DropdownItemDefinition;
+use Modules\ForgeComponents\Definitions\Admin\BreadcrumbsDefinition;
+use Modules\ForgeComponents\Definitions\Admin\BreadcrumbItemDefinition;
+use Modules\ForgeComponents\Definitions\Admin\SidebarDefinition;
+use Modules\ForgeComponents\Definitions\Admin\NavGroupDefinition;
+use Modules\ForgeComponents\Definitions\Admin\NavItemDefinition;
+use Modules\ForgeComponents\Definitions\Admin\IconDefinition;
+use Modules\ForgeComponents\Definitions\Admin\UserDropdownDefinition;
+use Modules\ForgeComponents\Definitions\Admin\DropdownItemDefinition;
 
 $layoutSections = array_merge($layoutSections ?? [], [
     'breadcrumbs' => component(name: 'ForgeComponents:admin/breadcrumbs', props: new BreadcrumbsDefinition(items: [

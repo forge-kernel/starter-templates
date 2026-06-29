@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\AppAuth\Models;
+namespace Modules\AppAuth\Models;
 
-use App\Modules\ForgeAuth\Contracts\AuthUserInterface;
-use App\Modules\ForgeSqlOrm\ORM\Attributes\Column;
-use App\Modules\ForgeSqlOrm\ORM\Attributes\ProtectedFields;
-use App\Modules\ForgeSqlOrm\ORM\Attributes\Table;
-use App\Modules\ForgeSqlOrm\ORM\CanLoadRelations;
-use App\Modules\ForgeSqlOrm\ORM\Model;
-use App\Modules\ForgeSqlOrm\ORM\Values\Cast;
-use App\Modules\ForgeSqlOrm\Traits\HasTimeStamps;
+use Modules\ForgeAuth\Contracts\AuthUserInterface;
+use Modules\ForgeSqlOrm\ORM\Attributes\Column;
+use Modules\ForgeSqlOrm\ORM\Attributes\ProtectedFields;
+use Modules\ForgeSqlOrm\ORM\Attributes\Table;
+use Modules\ForgeSqlOrm\ORM\CanLoadRelations;
+use Modules\ForgeSqlOrm\ORM\Model;
+use Modules\ForgeSqlOrm\ORM\Values\Cast;
+use Modules\ForgeSqlOrm\Traits\HasTimeStamps;
 
 #[Table("users")]
 #[ProtectedFields(["password"])]
